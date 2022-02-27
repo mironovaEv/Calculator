@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name = "screenBackground" > #E5E5E5 </color>
-    <color name = "calculator" > #373A37 </color>
+    <color name="backgroundColor">#E5E5E5</color>
+    <color name="calculator">#373A37</color>
+    <color name="whiteButton">#F1F3F6</color>
+    <color name="blueButton">#3A4E89</color>
 </resources>

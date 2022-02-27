@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,4 +14,38 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="whiteButton">
+        <item name="android:background">@drawable/roundstyle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/whiteButton</item>
+        <item name="android:textSize">29sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/blueButton</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight">700</item>
+
+
+    </style>
+
+    <style name="blueButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/blueButton</item>
+        <item name="android:background">@drawable/roundstyle</item>
+        <item name="android:textSize">29sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight">700</item>
+
+    </style>
 </resources>
