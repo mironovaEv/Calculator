@@ -3,10 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mironova/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/elevation.xml" value="0.154" />
-        <entry key="..\:/Users/mironova/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/roundstyle.xml" value="0.2365" />
-        <entry key="..\:/Users/mironova/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/mironova/AndroidStudioProjects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Android/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.4" />
       </map>
     </option>
   </component>
