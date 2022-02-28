@@ -183,7 +183,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button0"
+                android:id="@+id/buttonNull"
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
@@ -238,14 +238,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/buttonGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:constraint_referenced_ids="button0,button1,button2,button3,button4,button5,button6,button7,button8,button9"
-        tools:ignore="NotSibling" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

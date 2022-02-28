@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="whiteButton">
+        <item name="android:background">@drawable/roundstyle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:backgroundTint">@color/whiteButton</item>
+        <item name="android:textSize">29sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/blueButton</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textFontWeight">700</item>
+
+
+    </style>
+</resources>
