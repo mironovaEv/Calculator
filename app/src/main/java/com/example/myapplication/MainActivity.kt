@@ -21,11 +21,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
 
-        val ids = binding.buttonGroup?.referencedIds
+        val ids = binding.buttonGroup.referencedIds
         if (ids != null) {
             for (id in ids) {
                 val button = findViewById<Button>(id)
-                button.setOnClickListener { setExpression("0") }
+                button.setOnClickListener { setExpression(ids.indexOf(id).toString()) }
             }
         }
 
